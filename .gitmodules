@@ -1,0 +1,6 @@
+[submodule "kuromoji.js"]
+	path = kuromoji.js
+	url = https://github.com/takuyaa/kuromoji.js.git
+[submodule "d3-cloud"]
+	path = d3-cloud
+	url = https://github.com/jasondavies/d3-cloud

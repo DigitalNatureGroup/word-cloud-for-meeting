@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>speech-wordcloud</title>
+    <script src="kuromoji.js/build/kuromoji.js"></script>
+</head>
+<body>
+<label for="result_text">
+    result
+</label>
+<br>
+<textarea id="result_text" cols="100" rows="5"></textarea>
+<br>
+<label for="status">status</label>
+<br>
+<textarea id="status" cols="100" rows="1"></textarea>
+<br>
+<input type="button" onClick="vr_function()" value="start">
+
+<DIV id="wordcloud"></DIV>
+
+<script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+<script src="d3-cloud/build/d3.layout.cloud.js"></script>
+<script src="js/wordcloud.js"></script>
+</body>
+</html>
