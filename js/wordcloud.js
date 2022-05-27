@@ -279,8 +279,8 @@ function updateWordCountData(text) {
                 countSum += wordCountData[i]["count"];
             }
 
-            // If the sum of the weights of the currently displayed words is greater than 50, the old words are erased.
-            if (countSum > 40) {
+            // If the sum of the weights of the currently displayed words is greater than 30, the old words are erased.
+            if (countSum > 30) {
                 // ref for d3.max():
                 // https://qiita.com/nyasu1111/items/bef2d26800748a3661ec#d3maxarray-accessor
                 let maxElapsedTime = d3.max(wordCountData, function(d) {
